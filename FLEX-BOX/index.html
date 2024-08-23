@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex | Box</title>
+  </head>
+  <body>
+    <h1>Flex Box - </h1>
+
+    <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank"><h3>CSS Tricks-Learn More</h3></a>
+
+    <h3>What is Flexbox?</h3>
+
+    <p>
+      Flexbox is a layout model that allows elements to align and distribute
+      space within a container. It is a one-dimensional layout model that can
+      distribute space between items in a container even when their size is
+      unknown or dynamic. Flexbox is a layout model that allows elements to
+      align and distribute space within a container. It is a one-dimensional
+      layout model that can distribute space between items in a container even
+      when their size is unknown or dynamic.
+
+    </p>
+
+    
+    <h3>Flex Containers and Items</h3>
+    <p>
+      A flex container is the parent element to flex items. It is a flex
+      container because it has the display property set to flex. Flex items are
+      the children of the flex container. They are the direct children of the
+      flex container and are the elements that are being laid out using flex
+      properties.
+    </p>
+
+    <h3>Flex Container Properties</h3>
+
+    <p>
+      The flex container properties are the properties that are applied to the
+      flex container. They are the properties that control the layout of the
+      flex items. The flex container properties are the properties that are
+      applied to the flex container. They are the properties that control the
+      layout of the flex items.
+    </p>
+
+        <ul>
+            <li>display: flex;</li>
+            <li>flex-direction: row | row-reverse | column | column-reverse;</li>
+            <li>flex-wrap: nowrap | wrap | wrap-reverse;</li>
+            <li>flex-flow: <flex-direction> || <flex-wrap>;</li>
+            <li>justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly;</li>
+            <li>align-items: flex-start | flex-end | center | baseline | stretch;</li>
+            <li>align-content: flex-start | flex-end | center | space-between | space-around | stretch;</li>
+        </ul>
+
+    <h3>Flex Item Properties</h3>
+
+    <p>
+      The flex item properties are the properties that are applied to the flex
+      items. They are the properties that control the layout of the flex items.
+      The flex item properties are the properties that are applied to the flex
+      items. They are the properties that control the layout of the flex items.
+
+    </p>
+
+        <ul>
+            <li>order: <integer>;</li>
+            <li>flex-grow: <number>;</li>
+            <li>flex-shrink: <number>;</li>
+            <li>flex-basis: <length> | auto;</li>
+            <li>flex: none | [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ];</li>
+            <li>align-self: auto | flex-start | flex-end | center | baseline | stretch;</li>
+        </ul>
+
+        <h3>flex wrap and gap</h3>
+
+
+        <h3>AFlex align and justify-items</h3>
+
+
+    <div
+      style="
+        display: flex;
+        justify-content: space-between;
+        background-color: #f4f4f4;
+        padding: 20px;
+         margin: 20px;
+      "
+    >
+      <div style="background-color: blue; padding: 10px; color: #fff">
+        Item 1
+      </div>
+      <div style="background-color: blue; padding: 10px; color: #fff">
+        Item 2
+      </div>
+      <div style="background-color: blue; padding: 10px; color: #fff">
+        Item 3
+      </div>
+    </div>
+
+    <div
+      style="
+        display: flex;
+        justify-content: space-around;
+        background-color: #f4f4f4;
+        padding: 20px;
+         margin: 20px;
+      "
+    >
+      <div style="background-color: red; padding: 10px; color: #fff">
+        Item 1
+      </div>
+      <div style="background-color: red; padding: 10px; color: #fff">
+        Item 2
+      </div>
+      <div style="background-color: red; padding: 10px; color: #fff">
+        Item 3
+      </div>
+    </div>
+
+    <div
+      style="
+        display: flex;
+        justify-content: space-evenly;
+        background-color: #f4f4f4;
+        padding: 20px;
+         margin: 20px;
+      "
+    >
+      <div style="background-color: blue; padding: 10px; color: #fff">
+        Item 1
+      </div>
+      <div style="background-color: blue; padding: 10px; color: #fff">
+        Item 2
+      </div>
+      <div style="background-color: blue; padding: 10px; color: #fff">
+        Item 3
+      </div>
+    </div>
+
+    <div
+      style="
+        display: flex;
+        justify-content: center;
+        background-color: #f4f4f4;
+        padding: 20px;
+        margin: 20px;
+        gap: 40px;
+      "
+    >
+      <div style="background-color: green; padding: 10px; color: #fff">
+        Item 1
+      </div>
+      <div style="background-color: green; padding: 10px; color: #fff">
+        Item 2
+      </div>
+      <div style="background-color: green; padding: 10px; color: #fff">
+        Item 3
+      </div>
+    </div>
+
+    <div
+      style="
+        display: flex;
+        justify-content: flex-start;
+        background-color: #f4f4f4;
+        padding: 20px;
+        gap: 40px;
+      "
+    >
+      <div style="background-color: blue; padding: 10px; color: #fff">
+        Item 1
+      </div>
+      <div style="background-color: blue; padding: 10px; color: #fff">
+        Item 2
+      </div>
+      <div style="background-color: blue; padding: 10px; color: #fff">
+        Item 3
+      </div>
+    </div>
+
+
+    <!-- align-items and justify content -->
+
+    <!-- when to use align-items -->
+
+
+  </body>
+</html>

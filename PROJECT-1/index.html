@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shipping Quote</title>
+    <link rel="stylesheet" href="shipping.css">
+  </head>
+  <body>
+    <main class="container">
+      <header>
+        <h1>Shipping Quote</h1>
+        <p>Get a shipping quote</p>
+      </header>
+
+      <form  class="form-desc"  action="shipping.php" method="post">
+        <label for="weight">Weight</label>
+        <input
+          type="text"
+          name="weight"
+          id="weight"
+          placeholder="Enter weight in KG"
+          required
+        />
+        <br />
+        <label for="country">Country</label>
+        <select name="country" id="country" required>
+          <option value="">Select Country</option>
+          <option value="USA">USA</option>
+          <option value="UK">UK</option>
+          <option value="Nigeria">Nigeria</option>
+          <option value="Ghana">Ghana</option>
+        </select>
+        <br />
+        <button type="submit">Get Quote</button>
+      </form>
+    </main>
+
+
+
+  </body>
+</html>

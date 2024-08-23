@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Box Model</title>
+
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Box Model -->
+    <!-- 
+        Content: The content of the box, where text and images appear
+        Padding: Clears an area around the content. The padding is transparent
+        Border: A border that goes around the padding and content
+        Margin: Clears an area outside the border. The margin is transparent
+    -->
+    <div
+      style="
+        width: 300px;
+        height: 300px;
+        background-color: red;
+        padding: 40px 40px;
+        border: 10px solid green;
+        margin: 20px auto;
+      "
+    >
+      <p>Content 1</p>
+    </div>
+
+    <div
+      style="
+        width: 300px;
+        height: 300px;
+        background-color: red;
+        padding: 40px 40px;
+        border: 10px solid green;
+        margin: 20px auto;
+      "
+    >
+      <p>Content 2</p>
+    </div>
+    <hr>
+
+    <!-- turning div block element into inline block removing the possibility of margin top and bottom -->
+    <div
+      style="
+        display: inline-block;
+        width: 300px;
+        height: 300px;
+        background-color: yellow;
+        padding: 40px 40px;
+        border: 10px solid green;
+        margin-left: 40px;
+        overflow: scroll;
+      "
+    >
+    <h3> Content 3</h3>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio velit molestiae fugit quo laudantium omnis minima harum minus dicta eligendi facere cumque soluta laboriosam nesciunt, nemo et dolor at officiis!</p> 
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias earum, id perspiciatis odit, deserunt aperiam rerum illo at perferendis sit aliquam. Rem quia recusandae deserunt harum cum, asperiores quasi ducimus?</p>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit illo rem repellat nisi dolor corrupti quaerat unde, blanditiis, minima reprehenderit deserunt, iste iure quasi ullam facilis sapiente ut soluta ea!</p>
+      
+    
+    </div>
+
+    <div
+      style="
+        display: inline-block;
+        width: 300px;
+        height: 300px;
+        background-color: yellow;
+        padding: 40px 40px;
+        border: 10px solid green;
+        margin-left: 40px;
+      "
+    >
+      <p>Content 4</p>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio velit molestiae fugit quo laudantium omnis minima harum minus dicta eligendi facere cumque soluta laboriosam nesciunt, nemo et dolor at officiis!</p> 
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias earum, id perspiciatis odit, deserunt aperiam rerum illo at perferendis sit aliquam. Rem quia recusandae deserunt harum cum, asperiores quasi ducimus?</p>
+     
+    </div>
+
+
+    <!-- max-width responsiveness -->
+
+    <div
+      style="
+      
+        width: 500px;
+        height: 300px;
+        background-color: yellow;
+        padding: 40px 40px;
+        border: 10px solid green;
+        margin: 20px;
+      "
+    >
+      <p>Content 5</p>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio velit molestiae fugit quo laudantium omnis minima harum minus dicta eligendi facere cumque soluta laboriosam nesciunt, nemo et dolor at officiis!</p> 
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias earum, id perspiciatis odit, deserunt aperiam rerum illo at perferendis sit aliquam. Rem quia recusandae deserunt harum cum, asperiores quasi ducimus?</p>
+     
+    </div>
+
+    <!-- set max-width here -->
+
+     <div
+      style="
+      
+        max-width: 800px;
+        height: 300px;
+        background-color: yellow;
+        padding: 40px 40px;
+        border: 10px solid green;
+        margin: 20px;
+      "
+    >
+      <p>Content 6</p>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio velit molestiae fugit quo laudantium omnis minima harum minus dicta eligendi facere cumque soluta laboriosam nesciunt, nemo et dolor at officiis!</p> 
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias earum, id perspiciatis odit, deserunt aperiam rerum illo at perferendis sit aliquam. Rem quia recusandae deserunt harum cum, asperiores quasi ducimus?</p>
+     
+    </div>
+
+
+
+    
+  </body>
+</html>
